@@ -705,6 +705,8 @@ a {
   color: var(--primary-text-color);
   cursor: pointer;
 
+  margin-bottom: 24px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -727,4 +729,48 @@ a {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+.modal-input {
+  width: 360px;
+  height: 40px;
+
+  background-color: transparent;
+  border: 1px solid var(--primary-text-color);
+  border-radius: 4px;
+  color: var(--primary-text-color);
+
+  margin-bottom: 26px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+
+.modal-input::placeholder {
+  color: var(--logo-cust);
+}
+
+.input-text {
+  font-size: 12px;
+  line-height: calc(14 / 12);
+
+  letter-spacing: 0.01em;
+  color: var(--logo-cust);
+
+  margin-bottom: 4px;
+  display: inline-block;
 }
